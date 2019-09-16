@@ -32,11 +32,13 @@ public class Loginpage
 	
 	public void enterUsername(String username)
 	{
+		System.out.println("In enterUsername method under Loginpage");
 		objUsername.sendKeys(username);
 	}
 	
 	public void enterPassword(String password)
 	{
+		System.out.println("In enterPassword method under Loginpage");
 		objPassword.sendKeys(password);
 	}
 	
