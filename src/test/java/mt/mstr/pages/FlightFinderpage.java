@@ -38,7 +38,9 @@ public class FlightFinderpage
 	}
 	public void clickonSignoff()
 	{
-		objSignoff.click();
+		System.out.println("clickonSignoff");
+		objSignoff.click();		
+		System.out.println("User has clickonSignoff");
 	}
 
 	public static void main(String[] args) throws IOException 
