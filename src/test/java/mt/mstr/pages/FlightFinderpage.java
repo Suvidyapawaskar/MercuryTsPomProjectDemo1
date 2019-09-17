@@ -27,6 +27,8 @@ public class FlightFinderpage
 	
 	public void verifyFlightFinder()
 	{
+	
+	 System.out.println("verifyFlightFinder method under FlightFinderpage");
 	 boolean act_flag=objFlightFinder.isDisplayed();
 	 if(act_flag==true)
 	 {
