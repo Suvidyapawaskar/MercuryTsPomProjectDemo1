@@ -21,6 +21,7 @@ public class FlightFinderpage
 	
 	public void loadFlightFinderpage()
 	{
+		System.out.println("loadFlightFinderpage method under FlightFinderpage");
 		PageFactory.initElements(Config.driver, this);
 	}
 	
